@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+#+INCLUDE: ~/Documents/orgpub-templates/default-options.org
+#+DATE: 2016.05.16.
+#+AUTHOR: Mike
+#+OPTIONS:
+#+STARTUP:
+# Local Variables:
+# End:
+
+
+* key
+GE4FYZ5EV8MH6GR87Q01
+
+* service
+
+| 1 | 100대 통계지표      | 한국은행 및 타기관에서 작성한 통계지표 중 정책수립 및 동향분석에 유용한 통계지표 100개를 선정하여 제공합니다.       | 2013.11.28 |
+| 2 | 서비스 통계 목록    | OpenAPI 대상 통계목록을 제공합니다.                                                                                 | 2013.11.28 |
+| 3 | 통계 세부항목 목록  | 서비스대상 통계의 세부 통계항목을 보여줍니다.                                                                       | 2013.11.28 |
+| 4 | 통계 조회 조건 설정 | 데이터 이용을 위한 조회조건 설정방법(통계코드, 통계명, 세부항목명, 기간 등)을 제공합니다.                           | 2013.11.28 |
+| 5 | 통계메타DB          | 한국은행에서 작성, 제공하는 15개 통계에 대한 이용자의 이해를 돕기 위한 통계 설명자료입니다.                         | 2013.11.28 |
+| 6 | 통계용어사전        | 경제 및 통계에 대한 전문용어를 알기쉽게 풀이한 사전으로서 가나다순 으로 정리한 총 803개의 용어를 설명하고 있습니다. | 2013.11.28 |
+
+* 100대 통계지표
+
+| 변수명       | 타입 | 필수여부 | 값설명 |
+| 서비스명     | text | Y        |        |
+| 인증키       | text | Y        |        |
+| 요청타입     | text | Y        |        |
+| 언어         | text | Y        |        |
+| 요청시작건수 | text | Y        |        |
+| 요청종료건수 | text | Y        |        |
+
+** 예
+
+| 서비스명(필수)     | KeyStatisticList     |
+| 인증키(필수)       | GE4FYZ5EV8MH6GR87Q01 |
+| 요청타입(필수)     | xml                  |
+| 언어(필수)         | kr                   |
+| 요청시작건수(필수) | 1                    |
+| 요청종료건수(필수) | 100                  |
+
+ http://ecos.bok.or.kr/api/KeyStatisticList/sample/xml/kr/1/10/ 
+
+
+*** sample
+
+#+BEGIN_SRC xml
+<?xml version = "1.0" encoding = "UTF-8"?>
+<KeyStatisticList>
+   <list_total_count>101</list_total_count>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>경제성장률(실질, 계절조정 전기대비)</KEYSTAT_NAME>
+      <DATA_VALUE>0.4</DATA_VALUE>
+      <CYCLE>2016,1/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>민간소비증감률(실질, 계절조정 전기대비)</KEYSTAT_NAME>
+      <DATA_VALUE>-0.3</DATA_VALUE>
+      <CYCLE>2016,1/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>설비투자증감률(실질, 계절조정 전기대비)</KEYSTAT_NAME>
+      <DATA_VALUE>-5.9</DATA_VALUE>
+      <CYCLE>2016,1/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>건설투자증감률(실질, 계절조정 전기대비)</KEYSTAT_NAME>
+      <DATA_VALUE>5.9</DATA_VALUE>
+      <CYCLE>2016,1/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>GDP(명목, 계절조정)</KEYSTAT_NAME>
+      <DATA_VALUE>393098.3</DATA_VALUE>
+      <CYCLE>2015,4/4</CYCLE>
+      <UNIT_NAME>십억원 </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>GDP디플레이터</KEYSTAT_NAME>
+      <DATA_VALUE>104.904</DATA_VALUE>
+      <CYCLE>2015,4/4</CYCLE>
+      <UNIT_NAME>2010=100</UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>1인당GNI</KEYSTAT_NAME>
+      <DATA_VALUE>27339.7</DATA_VALUE>
+      <CYCLE>2015</CYCLE>
+      <UNIT_NAME>달러 </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>총저축률</KEYSTAT_NAME>
+      <DATA_VALUE>34.4</DATA_VALUE>
+      <CYCLE>2015,4/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>국내총투자율</KEYSTAT_NAME>
+      <DATA_VALUE>28.7</DATA_VALUE>
+      <CYCLE>2015,4/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+   <row>
+      <CLASS_NAME>국민소득 · 경기 · 기업경영</CLASS_NAME>
+      <KEYSTAT_NAME>수출입의 대 GNI 비율</KEYSTAT_NAME>
+      <DATA_VALUE>87.569611</DATA_VALUE>
+      <CYCLE>2015,4/4</CYCLE>
+      <UNIT_NAME>% </UNIT_NAME>
+   </row>
+</KeyStatisticList>
+#+END_SRC
