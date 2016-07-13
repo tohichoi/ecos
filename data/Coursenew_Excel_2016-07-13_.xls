@@ -1,0 +1,1952 @@
+
+
+
+
+
+
+
+
+%>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>시계열조회 : e-나라지표</title>
+
+<html>
+<head>
+
+</head>
+
+<body class="pop_body">
+<div>
+    <div> 
+        <table class="table_style_1" summary="시계열조회 체크리스트 표입니다.">                
+        <h5 class="tmar_25">통계명 : 시장금리 추이</h5>
+        <h5 class="tmar_25">[단위 : <b>기간중 평균금리, %</b>]</h5>      	
+		
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>입력통계표</title>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+//iFrame 사이즈 자동 조절
+function resizeIframeGen(){
+	var IE = false ;
+	if (window.navigator.appName.indexOf("Explorer") !=-1){
+		 IE = true;
+	}
+	if(IE) {
+		var objField = document.documentElement.scrollHeight;
+	} else {
+		var objField = document.documentElement.offsetHeight;
+	}
+
+	var mainObjField = parent.document.getElementById("showStblGams");
+	var height = objField;
+
+	mainObjField.height = height + 30;
+
+}
+
+//]]>
+</script>
+</head>
+<body onload="resizeIframeGen();">
+  
+<div class="con_table">
+	<form id="choseChart" name="choseChart">
+	<table border=1 summary="통계표 년도별 정보 제공 리스트 표입니다."class="table_style_2">
+		<caption>통계표</caption>
+			<thead>
+			<tr class="bg">
+			<th scope="col" colspan="1", rowspan="1">&nbsp;</th>
+			<th id='t107301_h_0' name='td_107301_cc_0' class="tc" headers='td_107301_cc_0' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>01월</th>
+<th id='t107301_h_1' name='td_107301_cc_1' class="tc" headers='td_107301_cc_1' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>02월</th>
+<th id='t107301_h_2' name='td_107301_cc_2' class="tc" headers='td_107301_cc_2' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>03월</th>
+<th id='t107301_h_3' name='td_107301_cc_3' class="tc" headers='td_107301_cc_3' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>04월</th>
+<th id='t107301_h_4' name='td_107301_cc_4' class="tc" headers='td_107301_cc_4' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>05월</th>
+<th id='t107301_h_5' name='td_107301_cc_5' class="tc" headers='td_107301_cc_5' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>06월</th>
+<th id='t107301_h_6' name='td_107301_cc_6' class="tc" headers='td_107301_cc_6' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>07월</th>
+<th id='t107301_h_7' name='td_107301_cc_7' class="tc" headers='td_107301_cc_7' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>08월</th>
+<th id='t107301_h_8' name='td_107301_cc_8' class="tc" headers='td_107301_cc_8' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>09월</th>
+<th id='t107301_h_9' name='td_107301_cc_9' class="tc" headers='td_107301_cc_9' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>10월</th>
+<th id='t107301_h_10' name='td_107301_cc_10' class="tc" headers='td_107301_cc_10' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>11월</th>
+<th id='t107301_h_11' name='td_107301_cc_11' class="tc" headers='td_107301_cc_11' nowrap='nowrap' colspan='0' rowspan='1'>1997<br/>12월</th>
+<th id='t107301_h_12' name='td_107301_cc_12' class="tc" headers='td_107301_cc_12' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>01월</th>
+<th id='t107301_h_13' name='td_107301_cc_13' class="tc" headers='td_107301_cc_13' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>02월</th>
+<th id='t107301_h_14' name='td_107301_cc_14' class="tc" headers='td_107301_cc_14' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>03월</th>
+<th id='t107301_h_15' name='td_107301_cc_15' class="tc" headers='td_107301_cc_15' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>04월</th>
+<th id='t107301_h_16' name='td_107301_cc_16' class="tc" headers='td_107301_cc_16' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>05월</th>
+<th id='t107301_h_17' name='td_107301_cc_17' class="tc" headers='td_107301_cc_17' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>06월</th>
+<th id='t107301_h_18' name='td_107301_cc_18' class="tc" headers='td_107301_cc_18' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>07월</th>
+<th id='t107301_h_19' name='td_107301_cc_19' class="tc" headers='td_107301_cc_19' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>08월</th>
+<th id='t107301_h_20' name='td_107301_cc_20' class="tc" headers='td_107301_cc_20' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>09월</th>
+<th id='t107301_h_21' name='td_107301_cc_21' class="tc" headers='td_107301_cc_21' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>10월</th>
+<th id='t107301_h_22' name='td_107301_cc_22' class="tc" headers='td_107301_cc_22' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>11월</th>
+<th id='t107301_h_23' name='td_107301_cc_23' class="tc" headers='td_107301_cc_23' nowrap='nowrap' colspan='0' rowspan='1'>1998<br/>12월</th>
+<th id='t107301_h_24' name='td_107301_cc_24' class="tc" headers='td_107301_cc_24' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>01월</th>
+<th id='t107301_h_25' name='td_107301_cc_25' class="tc" headers='td_107301_cc_25' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>02월</th>
+<th id='t107301_h_26' name='td_107301_cc_26' class="tc" headers='td_107301_cc_26' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>03월</th>
+<th id='t107301_h_27' name='td_107301_cc_27' class="tc" headers='td_107301_cc_27' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>04월</th>
+<th id='t107301_h_28' name='td_107301_cc_28' class="tc" headers='td_107301_cc_28' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>05월</th>
+<th id='t107301_h_29' name='td_107301_cc_29' class="tc" headers='td_107301_cc_29' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>06월</th>
+<th id='t107301_h_30' name='td_107301_cc_30' class="tc" headers='td_107301_cc_30' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>07월</th>
+<th id='t107301_h_31' name='td_107301_cc_31' class="tc" headers='td_107301_cc_31' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>08월</th>
+<th id='t107301_h_32' name='td_107301_cc_32' class="tc" headers='td_107301_cc_32' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>09월</th>
+<th id='t107301_h_33' name='td_107301_cc_33' class="tc" headers='td_107301_cc_33' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>10월</th>
+<th id='t107301_h_34' name='td_107301_cc_34' class="tc" headers='td_107301_cc_34' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>11월</th>
+<th id='t107301_h_35' name='td_107301_cc_35' class="tc" headers='td_107301_cc_35' nowrap='nowrap' colspan='0' rowspan='1'>1999<br/>12월</th>
+<th id='t107301_h_36' name='td_107301_cc_36' class="tc" headers='td_107301_cc_36' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>01월</th>
+<th id='t107301_h_37' name='td_107301_cc_37' class="tc" headers='td_107301_cc_37' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>02월</th>
+<th id='t107301_h_38' name='td_107301_cc_38' class="tc" headers='td_107301_cc_38' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>03월</th>
+<th id='t107301_h_39' name='td_107301_cc_39' class="tc" headers='td_107301_cc_39' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>04월</th>
+<th id='t107301_h_40' name='td_107301_cc_40' class="tc" headers='td_107301_cc_40' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>05월</th>
+<th id='t107301_h_41' name='td_107301_cc_41' class="tc" headers='td_107301_cc_41' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>06월</th>
+<th id='t107301_h_42' name='td_107301_cc_42' class="tc" headers='td_107301_cc_42' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>07월</th>
+<th id='t107301_h_43' name='td_107301_cc_43' class="tc" headers='td_107301_cc_43' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>08월</th>
+<th id='t107301_h_44' name='td_107301_cc_44' class="tc" headers='td_107301_cc_44' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>09월</th>
+<th id='t107301_h_45' name='td_107301_cc_45' class="tc" headers='td_107301_cc_45' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>10월</th>
+<th id='t107301_h_46' name='td_107301_cc_46' class="tc" headers='td_107301_cc_46' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>11월</th>
+<th id='t107301_h_47' name='td_107301_cc_47' class="tc" headers='td_107301_cc_47' nowrap='nowrap' colspan='0' rowspan='1'>2000<br/>12월</th>
+<th id='t107301_h_48' name='td_107301_cc_48' class="tc" headers='td_107301_cc_48' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>01월</th>
+<th id='t107301_h_49' name='td_107301_cc_49' class="tc" headers='td_107301_cc_49' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>02월</th>
+<th id='t107301_h_50' name='td_107301_cc_50' class="tc" headers='td_107301_cc_50' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>03월</th>
+<th id='t107301_h_51' name='td_107301_cc_51' class="tc" headers='td_107301_cc_51' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>04월</th>
+<th id='t107301_h_52' name='td_107301_cc_52' class="tc" headers='td_107301_cc_52' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>05월</th>
+<th id='t107301_h_53' name='td_107301_cc_53' class="tc" headers='td_107301_cc_53' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>06월</th>
+<th id='t107301_h_54' name='td_107301_cc_54' class="tc" headers='td_107301_cc_54' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>07월</th>
+<th id='t107301_h_55' name='td_107301_cc_55' class="tc" headers='td_107301_cc_55' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>08월</th>
+<th id='t107301_h_56' name='td_107301_cc_56' class="tc" headers='td_107301_cc_56' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>09월</th>
+<th id='t107301_h_57' name='td_107301_cc_57' class="tc" headers='td_107301_cc_57' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>10월</th>
+<th id='t107301_h_58' name='td_107301_cc_58' class="tc" headers='td_107301_cc_58' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>11월</th>
+<th id='t107301_h_59' name='td_107301_cc_59' class="tc" headers='td_107301_cc_59' nowrap='nowrap' colspan='0' rowspan='1'>2001<br/>12월</th>
+<th id='t107301_h_60' name='td_107301_cc_60' class="tc" headers='td_107301_cc_60' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>01월</th>
+<th id='t107301_h_61' name='td_107301_cc_61' class="tc" headers='td_107301_cc_61' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>02월</th>
+<th id='t107301_h_62' name='td_107301_cc_62' class="tc" headers='td_107301_cc_62' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>03월</th>
+<th id='t107301_h_63' name='td_107301_cc_63' class="tc" headers='td_107301_cc_63' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>04월</th>
+<th id='t107301_h_64' name='td_107301_cc_64' class="tc" headers='td_107301_cc_64' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>05월</th>
+<th id='t107301_h_65' name='td_107301_cc_65' class="tc" headers='td_107301_cc_65' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>06월</th>
+<th id='t107301_h_66' name='td_107301_cc_66' class="tc" headers='td_107301_cc_66' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>07월</th>
+<th id='t107301_h_67' name='td_107301_cc_67' class="tc" headers='td_107301_cc_67' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>08월</th>
+<th id='t107301_h_68' name='td_107301_cc_68' class="tc" headers='td_107301_cc_68' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>09월</th>
+<th id='t107301_h_69' name='td_107301_cc_69' class="tc" headers='td_107301_cc_69' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>10월</th>
+<th id='t107301_h_70' name='td_107301_cc_70' class="tc" headers='td_107301_cc_70' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>11월</th>
+<th id='t107301_h_71' name='td_107301_cc_71' class="tc" headers='td_107301_cc_71' nowrap='nowrap' colspan='0' rowspan='1'>2002<br/>12월</th>
+<th id='t107301_h_72' name='td_107301_cc_72' class="tc" headers='td_107301_cc_72' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>01월</th>
+<th id='t107301_h_73' name='td_107301_cc_73' class="tc" headers='td_107301_cc_73' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>02월</th>
+<th id='t107301_h_74' name='td_107301_cc_74' class="tc" headers='td_107301_cc_74' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>03월</th>
+<th id='t107301_h_75' name='td_107301_cc_75' class="tc" headers='td_107301_cc_75' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>04월</th>
+<th id='t107301_h_76' name='td_107301_cc_76' class="tc" headers='td_107301_cc_76' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>05월</th>
+<th id='t107301_h_77' name='td_107301_cc_77' class="tc" headers='td_107301_cc_77' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>06월</th>
+<th id='t107301_h_78' name='td_107301_cc_78' class="tc" headers='td_107301_cc_78' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>07월</th>
+<th id='t107301_h_79' name='td_107301_cc_79' class="tc" headers='td_107301_cc_79' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>08월</th>
+<th id='t107301_h_80' name='td_107301_cc_80' class="tc" headers='td_107301_cc_80' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>09월</th>
+<th id='t107301_h_81' name='td_107301_cc_81' class="tc" headers='td_107301_cc_81' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>10월</th>
+<th id='t107301_h_82' name='td_107301_cc_82' class="tc" headers='td_107301_cc_82' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>11월</th>
+<th id='t107301_h_83' name='td_107301_cc_83' class="tc" headers='td_107301_cc_83' nowrap='nowrap' colspan='0' rowspan='1'>2003<br/>12월</th>
+<th id='t107301_h_84' name='td_107301_cc_84' class="tc" headers='td_107301_cc_84' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>01월</th>
+<th id='t107301_h_85' name='td_107301_cc_85' class="tc" headers='td_107301_cc_85' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>02월</th>
+<th id='t107301_h_86' name='td_107301_cc_86' class="tc" headers='td_107301_cc_86' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>03월</th>
+<th id='t107301_h_87' name='td_107301_cc_87' class="tc" headers='td_107301_cc_87' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>04월</th>
+<th id='t107301_h_88' name='td_107301_cc_88' class="tc" headers='td_107301_cc_88' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>05월</th>
+<th id='t107301_h_89' name='td_107301_cc_89' class="tc" headers='td_107301_cc_89' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>06월</th>
+<th id='t107301_h_90' name='td_107301_cc_90' class="tc" headers='td_107301_cc_90' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>07월</th>
+<th id='t107301_h_91' name='td_107301_cc_91' class="tc" headers='td_107301_cc_91' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>08월</th>
+<th id='t107301_h_92' name='td_107301_cc_92' class="tc" headers='td_107301_cc_92' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>09월</th>
+<th id='t107301_h_93' name='td_107301_cc_93' class="tc" headers='td_107301_cc_93' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>10월</th>
+<th id='t107301_h_94' name='td_107301_cc_94' class="tc" headers='td_107301_cc_94' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>11월</th>
+<th id='t107301_h_95' name='td_107301_cc_95' class="tc" headers='td_107301_cc_95' nowrap='nowrap' colspan='0' rowspan='1'>2004<br/>12월</th>
+<th id='t107301_h_96' name='td_107301_cc_96' class="tc" headers='td_107301_cc_96' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>01월</th>
+<th id='t107301_h_97' name='td_107301_cc_97' class="tc" headers='td_107301_cc_97' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>02월</th>
+<th id='t107301_h_98' name='td_107301_cc_98' class="tc" headers='td_107301_cc_98' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>03월</th>
+<th id='t107301_h_99' name='td_107301_cc_99' class="tc" headers='td_107301_cc_99' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>04월</th>
+<th id='t107301_h_100' name='td_107301_cc_100' class="tc" headers='td_107301_cc_100' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>05월</th>
+<th id='t107301_h_101' name='td_107301_cc_101' class="tc" headers='td_107301_cc_101' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>06월</th>
+<th id='t107301_h_102' name='td_107301_cc_102' class="tc" headers='td_107301_cc_102' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>07월</th>
+<th id='t107301_h_103' name='td_107301_cc_103' class="tc" headers='td_107301_cc_103' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>08월</th>
+<th id='t107301_h_104' name='td_107301_cc_104' class="tc" headers='td_107301_cc_104' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>09월</th>
+<th id='t107301_h_105' name='td_107301_cc_105' class="tc" headers='td_107301_cc_105' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>10월</th>
+<th id='t107301_h_106' name='td_107301_cc_106' class="tc" headers='td_107301_cc_106' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>11월</th>
+<th id='t107301_h_107' name='td_107301_cc_107' class="tc" headers='td_107301_cc_107' nowrap='nowrap' colspan='0' rowspan='1'>2005<br/>12월</th>
+<th id='t107301_h_108' name='td_107301_cc_108' class="tc" headers='td_107301_cc_108' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>01월</th>
+<th id='t107301_h_109' name='td_107301_cc_109' class="tc" headers='td_107301_cc_109' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>02월</th>
+<th id='t107301_h_110' name='td_107301_cc_110' class="tc" headers='td_107301_cc_110' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>03월</th>
+<th id='t107301_h_111' name='td_107301_cc_111' class="tc" headers='td_107301_cc_111' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>04월</th>
+<th id='t107301_h_112' name='td_107301_cc_112' class="tc" headers='td_107301_cc_112' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>05월</th>
+<th id='t107301_h_113' name='td_107301_cc_113' class="tc" headers='td_107301_cc_113' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>06월</th>
+<th id='t107301_h_114' name='td_107301_cc_114' class="tc" headers='td_107301_cc_114' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>07월</th>
+<th id='t107301_h_115' name='td_107301_cc_115' class="tc" headers='td_107301_cc_115' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>08월</th>
+<th id='t107301_h_116' name='td_107301_cc_116' class="tc" headers='td_107301_cc_116' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>09월</th>
+<th id='t107301_h_117' name='td_107301_cc_117' class="tc" headers='td_107301_cc_117' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>10월</th>
+<th id='t107301_h_118' name='td_107301_cc_118' class="tc" headers='td_107301_cc_118' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>11월</th>
+<th id='t107301_h_119' name='td_107301_cc_119' class="tc" headers='td_107301_cc_119' nowrap='nowrap' colspan='0' rowspan='1'>2006<br/>12월</th>
+<th id='t107301_h_120' name='td_107301_cc_120' class="tc" headers='td_107301_cc_120' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>01월</th>
+<th id='t107301_h_121' name='td_107301_cc_121' class="tc" headers='td_107301_cc_121' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>02월</th>
+<th id='t107301_h_122' name='td_107301_cc_122' class="tc" headers='td_107301_cc_122' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>03월</th>
+<th id='t107301_h_123' name='td_107301_cc_123' class="tc" headers='td_107301_cc_123' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>04월</th>
+<th id='t107301_h_124' name='td_107301_cc_124' class="tc" headers='td_107301_cc_124' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>05월</th>
+<th id='t107301_h_125' name='td_107301_cc_125' class="tc" headers='td_107301_cc_125' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>06월</th>
+<th id='t107301_h_126' name='td_107301_cc_126' class="tc" headers='td_107301_cc_126' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>07월</th>
+<th id='t107301_h_127' name='td_107301_cc_127' class="tc" headers='td_107301_cc_127' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>08월</th>
+<th id='t107301_h_128' name='td_107301_cc_128' class="tc" headers='td_107301_cc_128' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>09월</th>
+<th id='t107301_h_129' name='td_107301_cc_129' class="tc" headers='td_107301_cc_129' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>10월</th>
+<th id='t107301_h_130' name='td_107301_cc_130' class="tc" headers='td_107301_cc_130' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>11월</th>
+<th id='t107301_h_131' name='td_107301_cc_131' class="tc" headers='td_107301_cc_131' nowrap='nowrap' colspan='0' rowspan='1'>2007<br/>12월</th>
+<th id='t107301_h_132' name='td_107301_cc_132' class="tc" headers='td_107301_cc_132' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>01월</th>
+<th id='t107301_h_133' name='td_107301_cc_133' class="tc" headers='td_107301_cc_133' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>02월</th>
+<th id='t107301_h_134' name='td_107301_cc_134' class="tc" headers='td_107301_cc_134' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>03월</th>
+<th id='t107301_h_135' name='td_107301_cc_135' class="tc" headers='td_107301_cc_135' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>04월</th>
+<th id='t107301_h_136' name='td_107301_cc_136' class="tc" headers='td_107301_cc_136' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>05월</th>
+<th id='t107301_h_137' name='td_107301_cc_137' class="tc" headers='td_107301_cc_137' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>06월</th>
+<th id='t107301_h_138' name='td_107301_cc_138' class="tc" headers='td_107301_cc_138' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>07월</th>
+<th id='t107301_h_139' name='td_107301_cc_139' class="tc" headers='td_107301_cc_139' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>08월</th>
+<th id='t107301_h_140' name='td_107301_cc_140' class="tc" headers='td_107301_cc_140' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>09월</th>
+<th id='t107301_h_141' name='td_107301_cc_141' class="tc" headers='td_107301_cc_141' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>10월</th>
+<th id='t107301_h_142' name='td_107301_cc_142' class="tc" headers='td_107301_cc_142' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>11월</th>
+<th id='t107301_h_143' name='td_107301_cc_143' class="tc" headers='td_107301_cc_143' nowrap='nowrap' colspan='0' rowspan='1'>2008<br/>12월</th>
+<th id='t107301_h_144' name='td_107301_cc_144' class="tc" headers='td_107301_cc_144' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>01월</th>
+<th id='t107301_h_145' name='td_107301_cc_145' class="tc" headers='td_107301_cc_145' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>02월</th>
+<th id='t107301_h_146' name='td_107301_cc_146' class="tc" headers='td_107301_cc_146' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>03월</th>
+<th id='t107301_h_147' name='td_107301_cc_147' class="tc" headers='td_107301_cc_147' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>04월</th>
+<th id='t107301_h_148' name='td_107301_cc_148' class="tc" headers='td_107301_cc_148' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>05월</th>
+<th id='t107301_h_149' name='td_107301_cc_149' class="tc" headers='td_107301_cc_149' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>06월</th>
+<th id='t107301_h_150' name='td_107301_cc_150' class="tc" headers='td_107301_cc_150' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>07월</th>
+<th id='t107301_h_151' name='td_107301_cc_151' class="tc" headers='td_107301_cc_151' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>08월</th>
+<th id='t107301_h_152' name='td_107301_cc_152' class="tc" headers='td_107301_cc_152' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>09월</th>
+<th id='t107301_h_153' name='td_107301_cc_153' class="tc" headers='td_107301_cc_153' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>10월</th>
+<th id='t107301_h_154' name='td_107301_cc_154' class="tc" headers='td_107301_cc_154' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>11월</th>
+<th id='t107301_h_155' name='td_107301_cc_155' class="tc" headers='td_107301_cc_155' nowrap='nowrap' colspan='0' rowspan='1'>2009<br/>12월</th>
+<th id='t107301_h_156' name='td_107301_cc_156' class="tc" headers='td_107301_cc_156' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>01월</th>
+<th id='t107301_h_157' name='td_107301_cc_157' class="tc" headers='td_107301_cc_157' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>02월</th>
+<th id='t107301_h_158' name='td_107301_cc_158' class="tc" headers='td_107301_cc_158' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>03월</th>
+<th id='t107301_h_159' name='td_107301_cc_159' class="tc" headers='td_107301_cc_159' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>04월</th>
+<th id='t107301_h_160' name='td_107301_cc_160' class="tc" headers='td_107301_cc_160' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>05월</th>
+<th id='t107301_h_161' name='td_107301_cc_161' class="tc" headers='td_107301_cc_161' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>06월</th>
+<th id='t107301_h_162' name='td_107301_cc_162' class="tc" headers='td_107301_cc_162' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>07월</th>
+<th id='t107301_h_163' name='td_107301_cc_163' class="tc" headers='td_107301_cc_163' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>08월</th>
+<th id='t107301_h_164' name='td_107301_cc_164' class="tc" headers='td_107301_cc_164' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>09월</th>
+<th id='t107301_h_165' name='td_107301_cc_165' class="tc" headers='td_107301_cc_165' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>10월</th>
+<th id='t107301_h_166' name='td_107301_cc_166' class="tc" headers='td_107301_cc_166' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>11월</th>
+<th id='t107301_h_167' name='td_107301_cc_167' class="tc" headers='td_107301_cc_167' nowrap='nowrap' colspan='0' rowspan='1'>2010<br/>12월</th>
+<th id='t107301_h_168' name='td_107301_cc_168' class="tc" headers='td_107301_cc_168' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>01월</th>
+<th id='t107301_h_169' name='td_107301_cc_169' class="tc" headers='td_107301_cc_169' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>02월</th>
+<th id='t107301_h_170' name='td_107301_cc_170' class="tc" headers='td_107301_cc_170' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>03월</th>
+<th id='t107301_h_171' name='td_107301_cc_171' class="tc" headers='td_107301_cc_171' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>04월</th>
+<th id='t107301_h_172' name='td_107301_cc_172' class="tc" headers='td_107301_cc_172' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>05월</th>
+<th id='t107301_h_173' name='td_107301_cc_173' class="tc" headers='td_107301_cc_173' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>06월</th>
+<th id='t107301_h_174' name='td_107301_cc_174' class="tc" headers='td_107301_cc_174' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>07월</th>
+<th id='t107301_h_175' name='td_107301_cc_175' class="tc" headers='td_107301_cc_175' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>08월</th>
+<th id='t107301_h_176' name='td_107301_cc_176' class="tc" headers='td_107301_cc_176' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>09월</th>
+<th id='t107301_h_177' name='td_107301_cc_177' class="tc" headers='td_107301_cc_177' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>10월</th>
+<th id='t107301_h_178' name='td_107301_cc_178' class="tc" headers='td_107301_cc_178' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>11월</th>
+<th id='t107301_h_179' name='td_107301_cc_179' class="tc" headers='td_107301_cc_179' nowrap='nowrap' colspan='0' rowspan='1'>2011<br/>12월</th>
+<th id='t107301_h_180' name='td_107301_cc_180' class="tc" headers='td_107301_cc_180' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>01월</th>
+<th id='t107301_h_181' name='td_107301_cc_181' class="tc" headers='td_107301_cc_181' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>02월</th>
+<th id='t107301_h_182' name='td_107301_cc_182' class="tc" headers='td_107301_cc_182' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>03월</th>
+<th id='t107301_h_183' name='td_107301_cc_183' class="tc" headers='td_107301_cc_183' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>04월</th>
+<th id='t107301_h_184' name='td_107301_cc_184' class="tc" headers='td_107301_cc_184' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>05월</th>
+<th id='t107301_h_185' name='td_107301_cc_185' class="tc" headers='td_107301_cc_185' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>06월</th>
+<th id='t107301_h_186' name='td_107301_cc_186' class="tc" headers='td_107301_cc_186' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>07월</th>
+<th id='t107301_h_187' name='td_107301_cc_187' class="tc" headers='td_107301_cc_187' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>08월</th>
+<th id='t107301_h_188' name='td_107301_cc_188' class="tc" headers='td_107301_cc_188' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>09월</th>
+<th id='t107301_h_189' name='td_107301_cc_189' class="tc" headers='td_107301_cc_189' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>10월</th>
+<th id='t107301_h_190' name='td_107301_cc_190' class="tc" headers='td_107301_cc_190' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>11월</th>
+<th id='t107301_h_191' name='td_107301_cc_191' class="tc" headers='td_107301_cc_191' nowrap='nowrap' colspan='0' rowspan='1'>2012<br/>12월</th>
+<th id='t107301_h_192' name='td_107301_cc_192' class="tc" headers='td_107301_cc_192' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>01월</th>
+<th id='t107301_h_193' name='td_107301_cc_193' class="tc" headers='td_107301_cc_193' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>02월</th>
+<th id='t107301_h_194' name='td_107301_cc_194' class="tc" headers='td_107301_cc_194' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>03월</th>
+<th id='t107301_h_195' name='td_107301_cc_195' class="tc" headers='td_107301_cc_195' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>04월</th>
+<th id='t107301_h_196' name='td_107301_cc_196' class="tc" headers='td_107301_cc_196' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>05월</th>
+<th id='t107301_h_197' name='td_107301_cc_197' class="tc" headers='td_107301_cc_197' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>06월</th>
+<th id='t107301_h_198' name='td_107301_cc_198' class="tc" headers='td_107301_cc_198' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>07월</th>
+<th id='t107301_h_199' name='td_107301_cc_199' class="tc" headers='td_107301_cc_199' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>08월</th>
+<th id='t107301_h_200' name='td_107301_cc_200' class="tc" headers='td_107301_cc_200' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>09월</th>
+<th id='t107301_h_201' name='td_107301_cc_201' class="tc" headers='td_107301_cc_201' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>10월</th>
+<th id='t107301_h_202' name='td_107301_cc_202' class="tc" headers='td_107301_cc_202' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>11월</th>
+<th id='t107301_h_203' name='td_107301_cc_203' class="tc" headers='td_107301_cc_203' nowrap='nowrap' colspan='0' rowspan='1'>2013<br/>12월</th>
+<th id='t107301_h_204' name='td_107301_cc_204' class="tc" headers='td_107301_cc_204' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>01월</th>
+<th id='t107301_h_205' name='td_107301_cc_205' class="tc" headers='td_107301_cc_205' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>02월</th>
+<th id='t107301_h_206' name='td_107301_cc_206' class="tc" headers='td_107301_cc_206' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>03월</th>
+<th id='t107301_h_207' name='td_107301_cc_207' class="tc" headers='td_107301_cc_207' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>04월</th>
+<th id='t107301_h_208' name='td_107301_cc_208' class="tc" headers='td_107301_cc_208' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>05월</th>
+<th id='t107301_h_209' name='td_107301_cc_209' class="tc" headers='td_107301_cc_209' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>06월</th>
+<th id='t107301_h_210' name='td_107301_cc_210' class="tc" headers='td_107301_cc_210' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>07월</th>
+<th id='t107301_h_211' name='td_107301_cc_211' class="tc" headers='td_107301_cc_211' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>08월</th>
+<th id='t107301_h_212' name='td_107301_cc_212' class="tc" headers='td_107301_cc_212' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>09월</th>
+<th id='t107301_h_213' name='td_107301_cc_213' class="tc" headers='td_107301_cc_213' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>10월</th>
+<th id='t107301_h_214' name='td_107301_cc_214' class="tc" headers='td_107301_cc_214' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>11월</th>
+<th id='t107301_h_215' name='td_107301_cc_215' class="tc" headers='td_107301_cc_215' nowrap='nowrap' colspan='0' rowspan='1'>2014<br/>12월</th>
+<th id='t107301_h_216' name='td_107301_cc_216' class="tc" headers='td_107301_cc_216' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>01월</th>
+<th id='t107301_h_217' name='td_107301_cc_217' class="tc" headers='td_107301_cc_217' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>02월</th>
+<th id='t107301_h_218' name='td_107301_cc_218' class="tc" headers='td_107301_cc_218' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>03월</th>
+<th id='t107301_h_219' name='td_107301_cc_219' class="tc" headers='td_107301_cc_219' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>04월</th>
+<th id='t107301_h_220' name='td_107301_cc_220' class="tc" headers='td_107301_cc_220' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>05월</th>
+<th id='t107301_h_221' name='td_107301_cc_221' class="tc" headers='td_107301_cc_221' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>06월</th>
+<th id='t107301_h_222' name='td_107301_cc_222' class="tc" headers='td_107301_cc_222' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>07월</th>
+<th id='t107301_h_223' name='td_107301_cc_223' class="tc" headers='td_107301_cc_223' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>08월</th>
+<th id='t107301_h_224' name='td_107301_cc_224' class="tc" headers='td_107301_cc_224' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>09월</th>
+<th id='t107301_h_225' name='td_107301_cc_225' class="tc" headers='td_107301_cc_225' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>10월</th>
+<th id='t107301_h_226' name='td_107301_cc_226' class="tc" headers='td_107301_cc_226' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>11월</th>
+<th id='t107301_h_227' name='td_107301_cc_227' class="tc" headers='td_107301_cc_227' nowrap='nowrap' colspan='0' rowspan='1'>2015<br/>12월</th>
+</tr>
+			</tr>
+			</thead>
+			<tbody>
+	
+				<tr><th class="tl" id='t107301_c1_0' colspan='1' nowrap='nowrap' rowspan='0'>국고채&nbsp;3년(평균)</th>
+	<td>12.17</td>
+<td>12.10</td>
+<td>12.32</td>
+<td>12.40</td>
+<td>12.40</td>
+<td>11.72</td>
+<td>11.65</td>
+<td>11.65</td>
+<td>11.65</td>
+<td>11.65</td>
+<td>12.40</td>
+<td>14.96</td>
+<td>15.00</td>
+<td>15.00</td>
+<td>15.09</td>
+<td>17.13</td>
+<td>16.86</td>
+<td>15.04</td>
+<td>12.57</td>
+<td>11.72</td>
+<td>11.84</td>
+<td>9.40</td>
+<td>8.34</td>
+<td>7.23</td>
+<td>6.67</td>
+<td>7.08</td>
+<td>6.81</td>
+<td>6.37</td>
+<td>6.75</td>
+<td>6.88</td>
+<td>7.89</td>
+<td>8.91</td>
+<td>9.33</td>
+<td>8.28</td>
+<td>8.46</td>
+<td>8.85</td>
+<td>9.28</td>
+<td>8.99</td>
+<td>9.06</td>
+<td>8.95</td>
+<td>8.96</td>
+<td>8.66</td>
+<td>8.00</td>
+<td>7.85</td>
+<td>7.96</td>
+<td>7.84</td>
+<td>7.31</td>
+<td>6.79</td>
+<td>5.99</td>
+<td>5.43</td>
+<td>5.84</td>
+<td>6.59</td>
+<td>6.46</td>
+<td>6.04</td>
+<td>5.75</td>
+<td>5.15</td>
+<td>4.89</td>
+<td>4.74</td>
+<td>5.34</td>
+<td>5.93</td>
+<td>6.08</td>
+<td>5.92</td>
+<td>6.30</td>
+<td>6.47</td>
+<td>6.30</td>
+<td>5.93</td>
+<td>5.70</td>
+<td>5.37</td>
+<td>5.37</td>
+<td>5.39</td>
+<td>5.29</td>
+<td>5.28</td>
+<td>4.96</td>
+<td>4.73</td>
+<td>4.78</td>
+<td>4.60</td>
+<td>4.27</td>
+<td>4.07</td>
+<td>4.37</td>
+<td>4.62</td>
+<td>4.25</td>
+<td>4.28</td>
+<td>4.77</td>
+<td>4.87</td>
+<td>4.88</td>
+<td>4.83</td>
+<td>4.58</td>
+<td>4.54</td>
+<td>4.39</td>
+<td>4.28</td>
+<td>4.19</td>
+<td>3.82</td>
+<td>3.59</td>
+<td>3.54</td>
+<td>3.42</td>
+<td>3.28</td>
+<td>3.65</td>
+<td>4.19</td>
+<td>4.04</td>
+<td>3.86</td>
+<td>3.71</td>
+<td>3.79</td>
+<td>4.12</td>
+<td>4.33</td>
+<td>4.52</td>
+<td>4.81</td>
+<td>5.10</td>
+<td>5.06</td>
+<td>5.02</td>
+<td>4.87</td>
+<td>4.93</td>
+<td>4.95</td>
+<td>4.78</td>
+<td>4.89</td>
+<td>4.89</td>
+<td>4.77</td>
+<td>4.69</td>
+<td>4.62</td>
+<td>4.72</td>
+<td>4.82</td>
+<td>4.97</td>
+<td>4.91</td>
+<td>4.79</td>
+<td>4.94</td>
+<td>5.10</td>
+<td>5.24</td>
+<td>5.35</td>
+<td>5.28</td>
+<td>5.39</td>
+<td>5.42</td>
+<td>5.54</td>
+<td>5.89</td>
+<td>5.44</td>
+<td>5.06</td>
+<td>5.15</td>
+<td>4.98</td>
+<td>5.28</td>
+<td>5.70</td>
+<td>5.96</td>
+<td>5.77</td>
+<td>5.81</td>
+<td>5.09</td>
+<td>4.97</td>
+<td>3.97</td>
+<td>3.44</td>
+<td>3.78</td>
+<td>3.69</td>
+<td>3.76</td>
+<td>3.83</td>
+<td>4.09</td>
+<td>4.09</td>
+<td>4.42</td>
+<td>4.40</td>
+<td>4.47</td>
+<td>4.32</td>
+<td>4.24</td>
+<td>4.29</td>
+<td>4.19</td>
+<td>3.94</td>
+<td>3.77</td>
+<td>3.70</td>
+<td>3.75</td>
+<td>3.88</td>
+<td>3.73</td>
+<td>3.48</td>
+<td>3.24</td>
+<td>3.40</td>
+<td>3.25</td>
+<td>3.71</td>
+<td>3.94</td>
+<td>3.74</td>
+<td>3.74</td>
+<td>3.66</td>
+<td>3.65</td>
+<td>3.77</td>
+<td>3.57</td>
+<td>3.45</td>
+<td>3.47</td>
+<td>3.39</td>
+<td>3.36</td>
+<td>3.37</td>
+<td>3.43</td>
+<td>3.55</td>
+<td>3.50</td>
+<td>3.38</td>
+<td>3.29</td>
+<td>3.01</td>
+<td>2.83</td>
+<td>2.81</td>
+<td>2.78</td>
+<td>2.80</td>
+<td>2.85</td>
+<td>2.75</td>
+<td>2.70</td>
+<td>2.60</td>
+<td>2.55</td>
+<td>2.59</td>
+<td>2.87</td>
+<td>2.91</td>
+<td>2.94</td>
+<td>2.90</td>
+<td>2.83</td>
+<td>2.94</td>
+<td>2.94</td>
+<td>2.89</td>
+<td>2.85</td>
+<td>2.87</td>
+<td>2.88</td>
+<td>2.84</td>
+<td>2.75</td>
+<td>2.56</td>
+<td>2.54</td>
+<td>2.41</td>
+<td>2.24</td>
+<td>2.14</td>
+<td>2.14</td>
+<td>2.04</td>
+<td>2.02</td>
+<td>1.87</td>
+<td>1.74</td>
+<td>1.88</td>
+<td>1.77</td>
+<td>1.78</td>
+<td>1.74</td>
+<td>1.65</td>
+<td>1.63</td>
+<td>1.75</td>
+<td>1.72</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_1' colspan='1' nowrap='nowrap' rowspan='0'>국고채&nbsp;5년(평균)</th>
+	<td>12.13</td>
+<td>11.98</td>
+<td>12.12</td>
+<td>12.20</td>
+<td>12.20</td>
+<td>11.68</td>
+<td>11.70</td>
+<td>11.70</td>
+<td>11.70</td>
+<td>11.70</td>
+<td>12.23</td>
+<td>14.70</td>
+<td>16.65</td>
+<td>16.60</td>
+<td>16.58</td>
+<td>16.08</td>
+<td>16.06</td>
+<td>14.59</td>
+<td>12.24</td>
+<td>11.59</td>
+<td>11.87</td>
+<td>9.70</td>
+<td>8.70</td>
+<td>7.50</td>
+<td>7.49</td>
+<td>8.40</td>
+<td>8.10</td>
+<td>7.09</td>
+<td>7.97</td>
+<td>7.92</td>
+<td>8.44</td>
+<td>9.30</td>
+<td>9.81</td>
+<td>9.10</td>
+<td>9.57</td>
+<td>9.94</td>
+<td>10.02</td>
+<td>9.54</td>
+<td>9.54</td>
+<td>9.30</td>
+<td>9.29</td>
+<td>8.95</td>
+<td>8.28</td>
+<td>8.17</td>
+<td>8.31</td>
+<td>8.19</td>
+<td>7.56</td>
+<td>6.92</td>
+<td>6.20</td>
+<td>5.76</td>
+<td>6.40</td>
+<td>7.24</td>
+<td>7.05</td>
+<td>6.49</td>
+<td>6.17</td>
+<td>5.43</td>
+<td>5.21</td>
+<td>5.65</td>
+<td>6.20</td>
+<td>6.66</td>
+<td>6.85</td>
+<td>6.66</td>
+<td>6.97</td>
+<td>7.06</td>
+<td>6.80</td>
+<td>6.33</td>
+<td>6.11</td>
+<td>5.79</td>
+<td>5.77</td>
+<td>5.71</td>
+<td>5.52</td>
+<td>5.57</td>
+<td>5.15</td>
+<td>4.89</td>
+<td>4.94</td>
+<td>4.77</td>
+<td>4.41</td>
+<td>4.19</td>
+<td>4.63</td>
+<td>4.93</td>
+<td>4.46</td>
+<td>4.53</td>
+<td>5.08</td>
+<td>5.13</td>
+<td>5.16</td>
+<td>5.13</td>
+<td>4.88</td>
+<td>4.88</td>
+<td>4.75</td>
+<td>4.58</td>
+<td>4.47</td>
+<td>4.01</td>
+<td>3.75</td>
+<td>3.67</td>
+<td>3.53</td>
+<td>3.39</td>
+<td>3.89</td>
+<td>4.47</td>
+<td>4.29</td>
+<td>4.11</td>
+<td>3.89</td>
+<td>3.97</td>
+<td>4.39</td>
+<td>4.67</td>
+<td>4.81</td>
+<td>5.06</td>
+<td>5.39</td>
+<td>5.33</td>
+<td>5.29</td>
+<td>5.03</td>
+<td>5.13</td>
+<td>5.16</td>
+<td>4.93</td>
+<td>5.03</td>
+<td>5.00</td>
+<td>4.83</td>
+<td>4.76</td>
+<td>4.67</td>
+<td>4.79</td>
+<td>4.88</td>
+<td>5.00</td>
+<td>4.94</td>
+<td>4.82</td>
+<td>4.96</td>
+<td>5.13</td>
+<td>5.35</td>
+<td>5.43</td>
+<td>5.33</td>
+<td>5.44</td>
+<td>5.49</td>
+<td>5.59</td>
+<td>5.90</td>
+<td>5.51</td>
+<td>5.14</td>
+<td>5.20</td>
+<td>5.02</td>
+<td>5.36</td>
+<td>5.80</td>
+<td>6.02</td>
+<td>5.83</td>
+<td>5.86</td>
+<td>5.16</td>
+<td>5.17</td>
+<td>4.30</td>
+<td>3.97</td>
+<td>4.60</td>
+<td>4.49</td>
+<td>4.43</td>
+<td>4.53</td>
+<td>4.72</td>
+<td>4.61</td>
+<td>4.91</td>
+<td>4.85</td>
+<td>4.91</td>
+<td>4.84</td>
+<td>4.76</td>
+<td>4.84</td>
+<td>4.76</td>
+<td>4.47</td>
+<td>4.44</td>
+<td>4.41</td>
+<td>4.41</td>
+<td>4.45</td>
+<td>4.27</td>
+<td>3.91</td>
+<td>3.66</td>
+<td>4.03</td>
+<td>4.02</td>
+<td>4.30</td>
+<td>4.41</td>
+<td>4.13</td>
+<td>4.10</td>
+<td>3.97</td>
+<td>3.92</td>
+<td>3.98</td>
+<td>3.73</td>
+<td>3.56</td>
+<td>3.60</td>
+<td>3.53</td>
+<td>3.51</td>
+<td>3.50</td>
+<td>3.55</td>
+<td>3.69</td>
+<td>3.64</td>
+<td>3.49</td>
+<td>3.41</td>
+<td>3.12</td>
+<td>2.94</td>
+<td>2.89</td>
+<td>2.85</td>
+<td>2.87</td>
+<td>2.98</td>
+<td>2.86</td>
+<td>2.83</td>
+<td>2.69</td>
+<td>2.63</td>
+<td>2.68</td>
+<td>3.08</td>
+<td>3.18</td>
+<td>3.26</td>
+<td>3.17</td>
+<td>3.08</td>
+<td>3.24</td>
+<td>3.30</td>
+<td>3.26</td>
+<td>3.16</td>
+<td>3.17</td>
+<td>3.17</td>
+<td>3.08</td>
+<td>2.97</td>
+<td>2.77</td>
+<td>2.77</td>
+<td>2.65</td>
+<td>2.42</td>
+<td>2.33</td>
+<td>2.33</td>
+<td>2.16</td>
+<td>2.11</td>
+<td>1.97</td>
+<td>1.86</td>
+<td>2.11</td>
+<td>2.04</td>
+<td>2.05</td>
+<td>1.95</td>
+<td>1.85</td>
+<td>1.78</td>
+<td>1.95</td>
+<td>1.90</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_2' colspan='1' nowrap='nowrap' rowspan='0'>국고채&nbsp;10년(평균)</th>
+	<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>8.25</td>
+<td>7.86</td>
+<td>7.18</td>
+<td>6.65</td>
+<td>6.41</td>
+<td>7.00</td>
+<td>7.74</td>
+<td>7.58</td>
+<td>7.14</td>
+<td>6.83</td>
+<td>6.29</td>
+<td>6.19</td>
+<td>6.54</td>
+<td>6.88</td>
+<td>7.01</td>
+<td>7.10</td>
+<td>7.00</td>
+<td>7.17</td>
+<td>7.30</td>
+<td>7.09</td>
+<td>6.76</td>
+<td>6.54</td>
+<td>6.24</td>
+<td>6.16</td>
+<td>6.11</td>
+<td>5.80</td>
+<td>5.77</td>
+<td>5.43</td>
+<td>5.15</td>
+<td>5.20</td>
+<td>5.03</td>
+<td>4.68</td>
+<td>4.46</td>
+<td>4.95</td>
+<td>5.26</td>
+<td>4.77</td>
+<td>4.87</td>
+<td>5.35</td>
+<td>5.43</td>
+<td>5.42</td>
+<td>5.43</td>
+<td>5.26</td>
+<td>5.25</td>
+<td>5.16</td>
+<td>5.01</td>
+<td>4.88</td>
+<td>4.33</td>
+<td>4.14</td>
+<td>4.05</td>
+<td>3.96</td>
+<td>3.85</td>
+<td>4.42</td>
+<td>4.88</td>
+<td>4.77</td>
+<td>4.69</td>
+<td>4.42</td>
+<td>4.46</td>
+<td>4.89</td>
+<td>5.08</td>
+<td>5.15</td>
+<td>5.36</td>
+<td>5.68</td>
+<td>5.60</td>
+<td>5.58</td>
+<td>5.28</td>
+<td>5.42</td>
+<td>5.45</td>
+<td>5.20</td>
+<td>5.25</td>
+<td>5.16</td>
+<td>4.94</td>
+<td>4.89</td>
+<td>4.79</td>
+<td>4.91</td>
+<td>4.95</td>
+<td>5.04</td>
+<td>5.01</td>
+<td>4.94</td>
+<td>5.07</td>
+<td>5.22</td>
+<td>5.48</td>
+<td>5.52</td>
+<td>5.42</td>
+<td>5.52</td>
+<td>5.56</td>
+<td>5.61</td>
+<td>5.82</td>
+<td>5.56</td>
+<td>5.28</td>
+<td>5.36</td>
+<td>5.17</td>
+<td>5.50</td>
+<td>5.89</td>
+<td>6.03</td>
+<td>5.91</td>
+<td>5.99</td>
+<td>5.53</td>
+<td>5.73</td>
+<td>4.87</td>
+<td>4.42</td>
+<td>5.24</td>
+<td>4.97</td>
+<td>4.90</td>
+<td>5.05</td>
+<td>5.26</td>
+<td>5.18</td>
+<td>5.44</td>
+<td>5.38</td>
+<td>5.45</td>
+<td>5.39</td>
+<td>5.31</td>
+<td>5.35</td>
+<td>5.30</td>
+<td>4.92</td>
+<td>4.91</td>
+<td>4.95</td>
+<td>4.93</td>
+<td>4.91</td>
+<td>4.68</td>
+<td>4.28</td>
+<td>4.11</td>
+<td>4.48</td>
+<td>4.46</td>
+<td>4.69</td>
+<td>4.76</td>
+<td>4.51</td>
+<td>4.48</td>
+<td>4.34</td>
+<td>4.24</td>
+<td>4.23</td>
+<td>3.96</td>
+<td>3.75</td>
+<td>3.86</td>
+<td>3.80</td>
+<td>3.81</td>
+<td>3.80</td>
+<td>3.81</td>
+<td>3.95</td>
+<td>3.90</td>
+<td>3.75</td>
+<td>3.63</td>
+<td>3.30</td>
+<td>3.09</td>
+<td>3.05</td>
+<td>2.97</td>
+<td>2.99</td>
+<td>3.13</td>
+<td>3.05</td>
+<td>3.04</td>
+<td>2.91</td>
+<td>2.84</td>
+<td>2.90</td>
+<td>3.31</td>
+<td>3.47</td>
+<td>3.61</td>
+<td>3.53</td>
+<td>3.44</td>
+<td>3.58</td>
+<td>3.65</td>
+<td>3.65</td>
+<td>3.52</td>
+<td>3.54</td>
+<td>3.54</td>
+<td>3.40</td>
+<td>3.30</td>
+<td>3.06</td>
+<td>3.09</td>
+<td>3.01</td>
+<td>2.77</td>
+<td>2.69</td>
+<td>2.68</td>
+<td>2.42</td>
+<td>2.35</td>
+<td>2.28</td>
+<td>2.18</td>
+<td>2.49</td>
+<td>2.47</td>
+<td>2.45</td>
+<td>2.31</td>
+<td>2.22</td>
+<td>2.09</td>
+<td>2.25</td>
+<td>2.18</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_3' colspan='1' nowrap='nowrap' rowspan='0'>회사채&nbsp;3년(평균)</th>
+	<td>12.15</td>
+<td>12.17</td>
+<td>12.69</td>
+<td>12.50</td>
+<td>12.21</td>
+<td>11.65</td>
+<td>11.86</td>
+<td>12.11</td>
+<td>12.36</td>
+<td>12.53</td>
+<td>14.08</td>
+<td>24.31</td>
+<td>23.36</td>
+<td>19.78</td>
+<td>18.98</td>
+<td>18.10</td>
+<td>17.89</td>
+<td>16.64</td>
+<td>13.69</td>
+<td>12.38</td>
+<td>12.51</td>
+<td>10.01</td>
+<td>9.60</td>
+<td>8.30</td>
+<td>7.89</td>
+<td>8.56</td>
+<td>8.55</td>
+<td>7.56</td>
+<td>8.32</td>
+<td>8.06</td>
+<td>8.58</td>
+<td>9.88</td>
+<td>10.41</td>
+<td>9.12</td>
+<td>9.53</td>
+<td>9.85</td>
+<td>10.25</td>
+<td>10.01</td>
+<td>10.00</td>
+<td>9.97</td>
+<td>9.91</td>
+<td>9.72</td>
+<td>9.13</td>
+<td>9.00</td>
+<td>9.00</td>
+<td>8.72</td>
+<td>8.42</td>
+<td>8.12</td>
+<td>7.76</td>
+<td>6.79</td>
+<td>7.16</td>
+<td>7.91</td>
+<td>7.70</td>
+<td>7.24</td>
+<td>7.00</td>
+<td>6.51</td>
+<td>6.32</td>
+<td>6.31</td>
+<td>6.79</td>
+<td>7.11</td>
+<td>7.07</td>
+<td>6.89</td>
+<td>7.05</td>
+<td>7.20</td>
+<td>7.07</td>
+<td>6.76</td>
+<td>6.59</td>
+<td>6.23</td>
+<td>6.06</td>
+<td>6.01</td>
+<td>5.90</td>
+<td>5.88</td>
+<td>5.48</td>
+<td>5.25</td>
+<td>5.44</td>
+<td>5.39</td>
+<td>5.26</td>
+<td>5.28</td>
+<td>5.65</td>
+<td>5.87</td>
+<td>5.24</td>
+<td>5.18</td>
+<td>5.53</td>
+<td>5.61</td>
+<td>5.67</td>
+<td>5.63</td>
+<td>5.37</td>
+<td>5.29</td>
+<td>5.07</td>
+<td>4.91</td>
+<td>4.77</td>
+<td>4.38</td>
+<td>4.10</td>
+<td>4.01</td>
+<td>3.86</td>
+<td>3.73</td>
+<td>4.11</td>
+<td>4.63</td>
+<td>4.48</td>
+<td>4.28</td>
+<td>4.12</td>
+<td>4.18</td>
+<td>4.52</td>
+<td>4.75</td>
+<td>4.92</td>
+<td>5.20</td>
+<td>5.50</td>
+<td>5.49</td>
+<td>5.50</td>
+<td>5.33</td>
+<td>5.30</td>
+<td>5.24</td>
+<td>5.05</td>
+<td>5.17</td>
+<td>5.18</td>
+<td>5.10</td>
+<td>5.02</td>
+<td>4.93</td>
+<td>5.05</td>
+<td>5.18</td>
+<td>5.32</td>
+<td>5.28</td>
+<td>5.20</td>
+<td>5.34</td>
+<td>5.49</td>
+<td>5.64</td>
+<td>5.75</td>
+<td>5.70</td>
+<td>5.85</td>
+<td>5.98</td>
+<td>6.16</td>
+<td>6.73</td>
+<td>6.64</td>
+<td>6.27</td>
+<td>6.13</td>
+<td>5.91</td>
+<td>6.22</td>
+<td>6.68</td>
+<td>6.99</td>
+<td>7.11</td>
+<td>7.46</td>
+<td>7.95</td>
+<td>8.56</td>
+<td>8.35</td>
+<td>7.34</td>
+<td>7.07</td>
+<td>6.14</td>
+<td>5.68</td>
+<td>5.16</td>
+<td>5.21</td>
+<td>5.46</td>
+<td>5.74</td>
+<td>5.58</td>
+<td>5.60</td>
+<td>5.43</td>
+<td>5.35</td>
+<td>5.40</td>
+<td>5.32</td>
+<td>5.02</td>
+<td>4.69</td>
+<td>4.48</td>
+<td>4.65</td>
+<td>4.81</td>
+<td>4.68</td>
+<td>4.41</td>
+<td>4.13</td>
+<td>4.19</td>
+<td>4.17</td>
+<td>4.52</td>
+<td>4.72</td>
+<td>4.54</td>
+<td>4.54</td>
+<td>4.44</td>
+<td>4.40</td>
+<td>4.48</td>
+<td>4.29</td>
+<td>4.24</td>
+<td>4.29</td>
+<td>4.24</td>
+<td>4.24</td>
+<td>4.24</td>
+<td>4.25</td>
+<td>4.36</td>
+<td>4.25</td>
+<td>4.01</td>
+<td>3.87</td>
+<td>3.60</td>
+<td>3.40</td>
+<td>3.31</td>
+<td>3.30</td>
+<td>3.32</td>
+<td>3.30</td>
+<td>3.20</td>
+<td>3.06</td>
+<td>2.95</td>
+<td>2.91</td>
+<td>2.96</td>
+<td>3.24</td>
+<td>3.38</td>
+<td>3.33</td>
+<td>3.29</td>
+<td>3.25</td>
+<td>3.37</td>
+<td>3.36</td>
+<td>3.32</td>
+<td>3.28</td>
+<td>3.30</td>
+<td>3.30</td>
+<td>3.26</td>
+<td>3.17</td>
+<td>2.97</td>
+<td>2.93</td>
+<td>2.78</td>
+<td>2.60</td>
+<td>2.47</td>
+<td>2.46</td>
+<td>2.36</td>
+<td>2.30</td>
+<td>2.13</td>
+<td>1.99</td>
+<td>2.12</td>
+<td>2.01</td>
+<td>2.00</td>
+<td>1.98</td>
+<td>1.95</td>
+<td>1.96</td>
+<td>2.12</td>
+<td>2.14</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_4' colspan='1' nowrap='nowrap' rowspan='0'>CD&nbsp;91물(평균)</th>
+	<td>12.66</td>
+<td>12.28</td>
+<td>13.23</td>
+<td>13.11</td>
+<td>12.75</td>
+<td>11.79</td>
+<td>11.91</td>
+<td>12.65</td>
+<td>13.39</td>
+<td>13.79</td>
+<td>14.47</td>
+<td>18.55</td>
+<td>23.10</td>
+<td>22.46</td>
+<td>22.61</td>
+<td>20.26</td>
+<td>18.28</td>
+<td>16.93</td>
+<td>13.95</td>
+<td>11.19</td>
+<td>10.38</td>
+<td>8.08</td>
+<td>7.70</td>
+<td>7.70</td>
+<td>7.00</td>
+<td>6.70</td>
+<td>6.56</td>
+<td>6.16</td>
+<td>6.17</td>
+<td>6.28</td>
+<td>6.75</td>
+<td>7.19</td>
+<td>7.54</td>
+<td>7.29</td>
+<td>6.91</td>
+<td>7.16</td>
+<td>7.28</td>
+<td>7.13</td>
+<td>7.00</td>
+<td>7.06</td>
+<td>7.14</td>
+<td>7.17</td>
+<td>7.15</td>
+<td>7.04</td>
+<td>7.05</td>
+<td>7.04</td>
+<td>6.99</td>
+<td>6.89</td>
+<td>6.43</td>
+<td>5.73</td>
+<td>5.68</td>
+<td>5.84</td>
+<td>5.85</td>
+<td>5.65</td>
+<td>5.32</td>
+<td>4.92</td>
+<td>4.66</td>
+<td>4.36</td>
+<td>4.53</td>
+<td>4.84</td>
+<td>4.79</td>
+<td>4.54</td>
+<td>4.64</td>
+<td>4.79</td>
+<td>4.81</td>
+<td>4.85</td>
+<td>4.91</td>
+<td>4.80</td>
+<td>4.81</td>
+<td>4.91</td>
+<td>4.91</td>
+<td>4.90</td>
+<td>4.70</td>
+<td>4.54</td>
+<td>4.76</td>
+<td>4.62</td>
+<td>4.39</td>
+<td>4.28</td>
+<td>4.15</td>
+<td>3.90</td>
+<td>3.83</td>
+<td>3.93</td>
+<td>4.23</td>
+<td>4.34</td>
+<td>4.26</td>
+<td>4.08</td>
+<td>3.93</td>
+<td>3.91</td>
+<td>3.90</td>
+<td>3.91</td>
+<td>3.91</td>
+<td>3.70</td>
+<td>3.52</td>
+<td>3.52</td>
+<td>3.42</td>
+<td>3.39</td>
+<td>3.47</td>
+<td>3.59</td>
+<td>3.55</td>
+<td>3.52</td>
+<td>3.51</td>
+<td>3.51</td>
+<td>3.51</td>
+<td>3.50</td>
+<td>3.70</td>
+<td>3.93</td>
+<td>3.96</td>
+<td>4.04</td>
+<td>4.15</td>
+<td>4.25</td>
+<td>4.27</td>
+<td>4.33</td>
+<td>4.36</td>
+<td>4.47</td>
+<td>4.63</td>
+<td>4.68</td>
+<td>4.64</td>
+<td>4.57</td>
+<td>4.60</td>
+<td>4.76</td>
+<td>4.92</td>
+<td>4.95</td>
+<td>4.94</td>
+<td>4.95</td>
+<td>5.04</td>
+<td>5.03</td>
+<td>5.05</td>
+<td>5.21</td>
+<td>5.34</td>
+<td>5.34</td>
+<td>5.43</td>
+<td>5.73</td>
+<td>5.81</td>
+<td>5.28</td>
+<td>5.25</td>
+<td>5.38</td>
+<td>5.36</td>
+<td>5.36</td>
+<td>5.52</td>
+<td>5.77</td>
+<td>5.79</td>
+<td>6.03</td>
+<td>5.62</td>
+<td>4.68</td>
+<td>3.22</td>
+<td>2.70</td>
+<td>2.45</td>
+<td>2.42</td>
+<td>2.41</td>
+<td>2.41</td>
+<td>2.41</td>
+<td>2.48</td>
+<td>2.64</td>
+<td>2.79</td>
+<td>2.79</td>
+<td>2.82</td>
+<td>2.88</td>
+<td>2.88</td>
+<td>2.83</td>
+<td>2.51</td>
+<td>2.45</td>
+<td>2.45</td>
+<td>2.58</td>
+<td>2.63</td>
+<td>2.66</td>
+<td>2.66</td>
+<td>2.73</td>
+<td>2.80</td>
+<td>2.93</td>
+<td>3.13</td>
+<td>3.35</td>
+<td>3.40</td>
+<td>3.46</td>
+<td>3.53</td>
+<td>3.59</td>
+<td>3.59</td>
+<td>3.58</td>
+<td>3.58</td>
+<td>3.56</td>
+<td>3.55</td>
+<td>3.55</td>
+<td>3.53</td>
+<td>3.54</td>
+<td>3.54</td>
+<td>3.54</td>
+<td>3.54</td>
+<td>3.34</td>
+<td>3.19</td>
+<td>3.14</td>
+<td>2.93</td>
+<td>2.85</td>
+<td>2.88</td>
+<td>2.86</td>
+<td>2.83</td>
+<td>2.81</td>
+<td>2.80</td>
+<td>2.72</td>
+<td>2.69</td>
+<td>2.68</td>
+<td>2.66</td>
+<td>2.66</td>
+<td>2.66</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.65</td>
+<td>2.52</td>
+<td>2.35</td>
+<td>2.21</td>
+<td>2.14</td>
+<td>2.13</td>
+<td>2.13</td>
+<td>2.12</td>
+<td>1.95</td>
+<td>1.81</td>
+<td>1.80</td>
+<td>1.70</td>
+<td>1.65</td>
+<td>1.64</td>
+<td>1.60</td>
+<td>1.58</td>
+<td>1.59</td>
+<td>1.67</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_5' colspan='1' nowrap='nowrap' rowspan='0'>콜금리(1일물,평균)</th>
+	<td>11.32</td>
+<td>11.51</td>
+<td>12.93</td>
+<td>12.96</td>
+<td>12.40</td>
+<td>11.15</td>
+<td>11.39</td>
+<td>12.37</td>
+<td>13.11</td>
+<td>13.52</td>
+<td>14.07</td>
+<td>20.66</td>
+<td>25.33</td>
+<td>23.52</td>
+<td>22.43</td>
+<td>21.39</td>
+<td>18.77</td>
+<td>16.43</td>
+<td>12.83</td>
+<td>9.53</td>
+<td>8.48</td>
+<td>7.39</td>
+<td>7.29</td>
+<td>7.04</td>
+<td>6.37</td>
+<td>5.65</td>
+<td>5.02</td>
+<td>4.81</td>
+<td>4.78</td>
+<td>4.79</td>
+<td>4.79</td>
+<td>4.74</td>
+<td>4.74</td>
+<td>4.77</td>
+<td>4.76</td>
+<td>4.79</td>
+<td>4.78</td>
+<td>5.02</td>
+<td>5.10</td>
+<td>5.10</td>
+<td>5.12</td>
+<td>5.12</td>
+<td>5.14</td>
+<td>5.14</td>
+<td>5.13</td>
+<td>5.33</td>
+<td>5.35</td>
+<td>5.37</td>
+<td>5.32</td>
+<td>5.15</td>
+<td>5.05</td>
+<td>5.03</td>
+<td>5.03</td>
+<td>5.03</td>
+<td>4.81</td>
+<td>4.61</td>
+<td>4.33</td>
+<td>4.03</td>
+<td>4.03</td>
+<td>4.01</td>
+<td>3.98</td>
+<td>4.01</td>
+<td>4.01</td>
+<td>4.01</td>
+<td>4.25</td>
+<td>4.30</td>
+<td>4.28</td>
+<td>4.29</td>
+<td>4.30</td>
+<td>4.30</td>
+<td>4.30</td>
+<td>4.31</td>
+<td>4.28</td>
+<td>4.30</td>
+<td>4.24</td>
+<td>4.24</td>
+<td>4.06</td>
+<td>4.01</td>
+<td>3.82</td>
+<td>3.74</td>
+<td>3.74</td>
+<td>3.74</td>
+<td>3.77</td>
+<td>3.77</td>
+<td>3.78</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.76</td>
+<td>3.76</td>
+<td>3.76</td>
+<td>3.60</td>
+<td>3.52</td>
+<td>3.52</td>
+<td>3.34</td>
+<td>3.27</td>
+<td>3.26</td>
+<td>3.26</td>
+<td>3.24</td>
+<td>3.25</td>
+<td>3.29</td>
+<td>3.27</td>
+<td>3.24</td>
+<td>3.24</td>
+<td>3.24</td>
+<td>3.45</td>
+<td>3.49</td>
+<td>3.70</td>
+<td>3.74</td>
+<td>3.92</td>
+<td>3.97</td>
+<td>3.97</td>
+<td>3.96</td>
+<td>4.17</td>
+<td>4.21</td>
+<td>4.42</td>
+<td>4.47</td>
+<td>4.48</td>
+<td>4.47</td>
+<td>4.50</td>
+<td>4.63</td>
+<td>4.60</td>
+<td>4.60</td>
+<td>4.69</td>
+<td>4.61</td>
+<td>4.54</td>
+<td>4.67</td>
+<td>4.92</td>
+<td>4.98</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>4.99</td>
+<td>4.99</td>
+<td>4.97</td>
+<td>4.97</td>
+<td>4.99</td>
+<td>4.97</td>
+<td>4.95</td>
+<td>4.98</td>
+<td>5.22</td>
+<td>5.22</td>
+<td>4.88</td>
+<td>4.00</td>
+<td>3.27</td>
+<td>2.43</td>
+<td>2.06</td>
+<td>1.77</td>
+<td>1.80</td>
+<td>1.91</td>
+<td>1.93</td>
+<td>1.93</td>
+<td>1.98</td>
+<td>1.99</td>
+<td>1.99</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.01</td>
+<td>2.00</td>
+<td>2.01</td>
+<td>2.00</td>
+<td>2.21</td>
+<td>2.27</td>
+<td>2.27</td>
+<td>2.26</td>
+<td>2.37</td>
+<td>2.50</td>
+<td>2.66</td>
+<td>2.75</td>
+<td>2.92</td>
+<td>3.01</td>
+<td>3.02</td>
+<td>3.21</td>
+<td>3.26</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.24</td>
+<td>3.26</td>
+<td>3.26</td>
+<td>3.26</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.26</td>
+<td>3.26</td>
+<td>3.08</td>
+<td>3.00</td>
+<td>2.99</td>
+<td>2.80</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.76</td>
+<td>2.75</td>
+<td>2.74</td>
+<td>2.75</td>
+<td>2.55</td>
+<td>2.49</td>
+<td>2.48</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.49</td>
+<td>2.48</td>
+<td>2.49</td>
+<td>2.49</td>
+<td>2.48</td>
+<td>2.49</td>
+<td>2.34</td>
+<td>2.23</td>
+<td>2.06</td>
+<td>1.98</td>
+<td>1.99</td>
+<td>1.99</td>
+<td>1.99</td>
+<td>1.82</td>
+<td>1.73</td>
+<td>1.74</td>
+<td>1.57</td>
+<td>1.48</td>
+<td>1.49</td>
+<td>1.48</td>
+<td>1.48</td>
+<td>1.49</td>
+<td>1.48</td>
+
+				</tr>
+	
+				<tr>
+<th class="tl" id='t107301_c1_6' colspan='1' nowrap='nowrap' rowspan='0'>기준금리</th>
+	<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>4.75</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.25</td>
+<td>5.25</td>
+<td>5.25</td>
+<td>5.25</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>4.75</td>
+<td>4.50</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>3.50</td>
+<td>3.50</td>
+<td>3.50</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.50</td>
+<td>3.50</td>
+<td>3.75</td>
+<td>3.75</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.25</td>
+<td>4.25</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.50</td>
+<td>4.75</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>5.25</td>
+<td>5.25</td>
+<td>4.25</td>
+<td>4.00</td>
+<td>3.00</td>
+<td>2.50</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.25</td>
+<td>2.25</td>
+<td>2.25</td>
+<td>2.25</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>3.00</td>
+<td>3.00</td>
+<td>3.00</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.25</td>
+<td>3.00</td>
+<td>3.00</td>
+<td>3.00</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.75</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.50</td>
+<td>2.25</td>
+<td>2.25</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>2.00</td>
+<td>1.75</td>
+<td>1.75</td>
+<td>1.75</td>
+<td>1.50</td>
+<td>1.50</td>
+<td>1.50</td>
+<td>1.50</td>
+<td>1.50</td>
+<td>1.50</td>
+<td>1.50</td>
+
+				</tr>
+			
+			</tbody>
+		</table>
+	</form>
+</div>
+</body>								
+
+        <p class="h8 tmar_20"><strong>출처</strong> : 한국은행 경제통계시스템 &gt; 4. 금리</p>
+			
+			
+				<ul class="t_box">
+					<li>						
+						<ul class="fl"><li class="no_icon">* 콜금리 목표는 월말 기준이며,국고채10년은 00.11월부터, 콜금리목표는 99.4월부터임.></li></ul>&nbsp;
+					</li>
+				</ul>
+			
+			</table>
+		</div>			
+	</div>	
+</body>
+
+</html>
