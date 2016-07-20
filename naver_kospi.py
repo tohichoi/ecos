@@ -6,6 +6,8 @@ import sys
 import urllib2
 import io
 import pandas as pd
+import pickle
+
 
 '''
 N
@@ -24,7 +26,10 @@ ROE
 '''
 
 hdr=('N', '종목명', '현재가', '전일비', '등락률', '액면가', '시가총액', '상장주식수', '외국인비율', '거래량', 'PER', 'ROE', '토론실')
+
 def read_one_page(url):
+
+	print url
 
 	fd=urllib2.urlopen(url)
 	html=io.BytesIO(fd.read())
@@ -45,8 +50,9 @@ def read_one_page(url):
 	for row in rows:
 		cols = row.find_all('td')
 		cols = [ele.text.strip() for ele in cols]
-		#data.append([ele for ele in cols if ele]) # Get rid of empty values
-		data.append(cols)
+		if len(cols) > 1:
+			#data.append([ele for ele in cols if ele]) # Get rid of empty values
+			data.append(cols)
 
 	print hdrs
 	for r in data:
@@ -62,13 +68,14 @@ url='http://finance.naver.com/sise/sise_market_sum.nhn?&page=%d'
 
 dflist=[]
 
-for i in range(2):
-	data=read_one_page(url)
+for i in range(s, e+1):
+	data=read_one_page(url % i)
 	df2=pd.DataFrame(data, columns=hdr)
 	dflist.append(df2)
 
 df=pd.concat(dflist)
 
-print df.head()
-print df.tail()
+fd=open('naver_kospi_160720.pickle', 'w+')
+pickle.dump(df, fd)
+fd.close()
 
