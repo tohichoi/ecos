@@ -35,7 +35,7 @@ def read_one_page(url):
 	fd=urllib2.urlopen(url)
 	html=io.BytesIO(fd.read())
 
-	soup = bs4.BeautifulSoup(html)
+	soup = bs4.BeautifulSoup(html, "lxml")
 
 	data = []
 	hdrs = None
