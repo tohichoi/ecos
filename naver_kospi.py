@@ -7,6 +7,7 @@ import urllib2
 import io
 import pandas as pd
 import pickle
+import time
 
 
 '''
@@ -54,12 +55,21 @@ def read_one_page(url):
 			#data.append([ele for ele in cols if ele]) # Get rid of empty values
 			data.append(cols)
 
-	print hdrs
-	for r in data:
-		if len(r) > 0:
-			print r
+	#print hdrs
+	# for r in data:
+	# 	if len(r) > 0:
+	# 		print r
 
 	return data
+
+
+def generate_filename():
+	
+	tm=time.localtime()
+
+	fn='naver_kospi_volume_%02d%02d%02d_%02d%02d%02d.pickle' % (tm.tm_year-2000, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec)
+
+	return fn
 
 s=1
 e=25
@@ -75,7 +85,9 @@ for i in range(s, e+1):
 
 df=pd.concat(dflist)
 
-fd=open('naver_kospi_160720.pickle', 'w+')
+fn=generate_filename()
+
+fd=open(fn, 'w+')
 pickle.dump(df, fd)
 fd.close()
 
