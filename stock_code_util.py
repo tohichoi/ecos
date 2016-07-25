@@ -9,7 +9,7 @@ def make_stock_codes():
 
 	df=pd.read_excel('data/1. 주식 종목 리스트-v2.xlsx', thousands=',')
 
-	df.dropna(inplace=True)
+	#df=df.dropna()
 
 	kn='code'
 
@@ -18,14 +18,14 @@ def make_stock_codes():
 	df_new=df[[kn, 'name', 'googlecode', 'type']]
 	#df_new.dropna(inplace=True)
 
-	fd=open('stock_codes.pickle', 'w')
+	fd=open('stock_codes.pickle', 'wb+')
 	pickle.dump(df_new, fd)
 	fd.close()
 
 
 def load_stock_codes():
 
-	fd=open('stock_codes.pickle', 'w')
+	fd=open('stock_codes.pickle')
 	df=pickle.load(fd)
 	fd.close()
 
