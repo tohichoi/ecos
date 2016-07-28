@@ -8,7 +8,7 @@ import io
 import pandas as pd
 import pickle
 import time
-
+import re
 
 '''
 N
@@ -26,7 +26,7 @@ ROE
 토론실
 '''
 
-hdr=('N', '종목명', '현재가', '전일비', '등락률', '액면가', '시가총액', '상장주식수', '외국인비율', '거래량', 'PER', 'ROE', '토론실')
+hdr=('N', '종목명', '종목코드', '현재가', '전일비', '등락률', '액면가', '시가총액', '상장주식수', '외국인비율', '거래량', 'PER', 'ROE', '토론실')
 
 def read_one_page(url):
 
@@ -49,9 +49,25 @@ def read_one_page(url):
 
 	rows = table_body.find_all('tr')
 	for row in rows:
+		code = None
 		cols = row.find_all('td')
+		for c in cols:
+			a=c.find('a')
+			if not a:
+				continue
+			#print 'found link : ' + a.attrs['href']
+			m=re.search(r'/item/main.nhn\?code=(......)$', a.attrs['href'])
+			if m:
+				code = m.groups(1)[0]
+
+		# h.link of cols[1] is http://finance.naver.com/item/main.nhn?code=005930
+		#   <td><a class="tltle" href="/item/main.nhn?code=003410">
+		#print cols[1].a.strip()
+
 		cols = [ele.text.strip() for ele in cols]
-		if len(cols) > 1:
+		cols.insert(2, code)
+
+		if len(cols) == len(hdr):
 			#data.append([ele for ele in cols if ele]) # Get rid of empty values
 			data.append(cols)
 
@@ -63,11 +79,12 @@ def read_one_page(url):
 	return data
 
 
-def generate_filename():
+# postfix: includes .ext
+def generate_current_filename(prefix, postfix):
 	
 	tm=time.localtime()
 
-	fn='naver_kospi_volume_%02d%02d%02d_%02d%02d%02d.pickle' % (tm.tm_year-2000, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec)
+	fn='%s%02d%02d%02d_%02d%02d%02d%s' % (prefix, tm.tm_year-2000, tm.tm_mon, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec, postfix)
 
 	return fn
 
@@ -85,7 +102,7 @@ for i in range(s, e+1):
 
 df=pd.concat(dflist)
 
-fn=generate_filename()
+fn=generate_current_filename('naver_kospi_volume_', '.pickle')
 
 fd=open(fn, 'w+')
 pickle.dump(df, fd)
